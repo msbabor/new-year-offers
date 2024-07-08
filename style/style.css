@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -10,7 +11,7 @@ body{
 }
 /* banner section start here */
 .banner-container{
-    width: 1000px;
+    max-width: 1000px;
     height: 454px;
     margin: 0 auto;
     margin-top: 20px;
@@ -20,6 +21,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    border-radius: 10px;
 }
 
 .banner-content{
@@ -36,6 +38,53 @@ body{
 }
 .banner-content h1{
     font-size: 40px;
-font-weight: 900;
+    font-weight: 900;
 }
-/* banner section ended here */
+/* banner section ends here */
+
+/* second-section-container start here */
+.second-section-container{
+    max-width: 600px;
+    height: 604px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content{
+    height: 229px;
+    margin-top: 20px;
+}
+.second-section-content h1{
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.second-section-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.second-section-image{
+    width: 600px;
+    height: 375px;
+}
+.second-section-image img{
+    height: 100%;
+    width: 100%;
+}
+/* second-section-container ends here */
