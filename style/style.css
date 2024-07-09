@@ -46,7 +46,6 @@ body{
 .second-section-container{
     max-width: 600px;
     height: 604px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 80px;
     display: flex;
@@ -88,3 +87,117 @@ body{
     width: 100%;
 }
 /* second-section-container ends here */
+
+/* midnight-party-container style start here */
+.midnight-party-container{
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    padding: 40px;
+}
+.midnight-party-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+.midnight-party-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 110px;
+
+}
+/* midnight-party-container style ends here */
+
+/* park-hotel-container style start here */
+.park-hotel-container{
+    max-width: 1000px;
+    height: 360px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+}
+.park-hotel-content{
+    text-align: center;
+    align-items: center;
+}
+.park-hotel-content p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hotel-des{
+    color: red;
+}
+.join-btn{
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    padding: 6px 12px 6px 12px;
+}
+/* park-hotel-container style  here */
+
+/* coming-soon-container style start here */
+.coming-soon-container{
+    width: 1000px;
+    height: 350px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.coming-soon-content{
+    width: 294px;
+    height: 191px;
+    border: 2px solid blue;
+}
+.coming-soon-image{
+    width: 350px;
+    height: 350px;
+    border: 2px solid green;
+}
+.coming-soon-des{
+    width: 207px;
+    height: 127px;
+    border: 2px solid black;
+}
+/* coming-soon-container style start here */
