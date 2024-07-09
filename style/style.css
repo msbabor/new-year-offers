@@ -178,26 +178,83 @@ body{
 .coming-soon-container{
     width: 1000px;
     height: 350px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
+    justify-content: space-between;
 }
 .coming-soon-content{
     width: 294px;
     height: 191px;
-    border: 2px solid blue;
+    margin-left: 10px;
+}
+.coming-soon-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+.coming-soon-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.coming-soon-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
 }
 .coming-soon-image{
     width: 350px;
     height: 350px;
-    border: 2px solid green;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.coming-soon-image img{
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    left: 400px;
+    right: -500px;
+    top: 2295px;
+    bottom: -2250px;
 }
 .coming-soon-des{
     width: 207px;
     height: 127px;
-    border: 2px solid black;
+    text-align: left;
+}
+.coming-soon-des h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.coming-soon-des p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 12px;
+}
+.new-year{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 795px;
+    right: -795px;
+    top: 2507px;
+    bottom: -2507px;
+}
+.new-year img{
+    height: 100%;
+    width: 100%;
 }
 /* coming-soon-container style start here */
+
